@@ -16,7 +16,11 @@
     "**/*.log": true,
     "**/*.cache": true,
     "**/*.bak": true,
-    "**/*.tmp": true
+    "**/*.tmp": true,
+    "**/multimodal": true
+  },
+  "files.watcherExclude": {
+    "**/multimodal/**": true
   },
   "psi-header.config": {
     "forceToTop": true
